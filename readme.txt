@@ -1,5 +1,5 @@
 This is an MSU-1 pack for The Legend of Zelda: A Link to the Past Randomizer with music from Final Fantasy XII - The Zodiac Age.
-For a more detailed documentation, open https://vitormenezello.github.io/ffxii-tza-msu.
+For a more detailed documentation, open https://vitormenezello.github.io/ffxii-tza-msu/index.html.
 
 List of songs:
 
