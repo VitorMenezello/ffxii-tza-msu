@@ -239,6 +239,14 @@ h2 {
 	background: #9146FF;
 }
 
+.github {
+	color: #323232;
+}
+
+.github img {
+	background: #323232;
+}
+
 .discord {
 	color: #7289DA;
   	position: relative;
