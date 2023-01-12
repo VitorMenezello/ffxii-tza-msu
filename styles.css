@@ -1,9 +1,18 @@
+:root {
+	--background: #E3E3E3;
+	--grey: #444444;
+	--red: #BC315C;
+	--twitter: #50ABF1;
+	--twitch: #9146FF;
+	--github: #323232;
+	--discord: #7289DA;
+}
+
 body {
 	margin: 0;
-	height: 100%;
 	overflow: auto;
-	background: #E3E3E3;
-	color: #444444;
+	background: var(--background);
+	color: var(--grey);
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
 	flex-direction: column;
@@ -12,7 +21,7 @@ body {
 
 a {
     text-decoration: none;
-	color: #BC315C;
+	color: var(--red);
 }
 
 a:hover {
@@ -44,7 +53,7 @@ b {
 
 #subtitle {
 	font-size: 46px;
-	color: #BC315C;
+	color: var(--red);
 	-webkit-text-stroke: 1px white;
 	text-shadow: 0 0 3px black;
 	margin: 0;
@@ -76,11 +85,11 @@ b {
 	width: 80%;
 	margin: 30px;
 	padding: 20px;
-    counter-reset: step
+    counter-reset: step;
 }
 
 .bordered {
-    border: solid 1px #BC315C;
+    border: solid 1px var(--red);
     border-radius: 10px;
 }
 
@@ -108,7 +117,7 @@ b {
     left: -15px;
     font-size: 18px;
     font-weight: 600;
-    background: #BC315C;
+    background: var(--red);
     color: white;
 }
 
@@ -123,7 +132,7 @@ h2 {
 
 .button {
 	display: flex;
-    background: #BC315C;
+    background: var(--red);
     color: white;
     border-radius: 10px;
     padding: 8px 12px;
@@ -152,7 +161,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #BC315C;
+    background: var(--red);
     color: white;
     border-radius: 10px 10px 0 0;
 }
@@ -178,7 +187,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: solid 1px #BC315C;
+    border: solid 1px var(--red);
     border-top: none;
 }
 
@@ -197,7 +206,7 @@ h2 {
 }
 
 .table-row-item:not(:last-of-type) {
-	border-right: solid 1px #BC315C;
+	border-right: solid 1px var(--red);
 }
 
 .contact-container {
@@ -224,42 +233,42 @@ h2 {
 }
 
 .twitter {
-	color: #50ABF1;
+	color: var(--twitter);
 }
 
 .twitter img {
-	background: #50ABF1;
+	background: var(--twitter);
 }
 
 .twitch {
-	color: #9146FF;
+	color: var(--twitch);
 }
 
 .twitch img {
-	background: #9146FF;
+	background: var(--twitch);
 }
 
 .github {
-	color: #323232;
+	color: var(--github);
 }
 
 .github img {
-	background: #323232;
+	background: var(--github);
 }
 
 .discord {
-	color: #7289DA;
+	color: var(--discord);
   	position: relative;
   	cursor: pointer;
 }
 
 .discord .contact-icon {
-	background: #7289DA;
+	background: var(--discord);
 }
 
 #tooltip {
   visibility: hidden;
-  background-color: #7289DA;
+  background-color: var(--discord);
   color: white;
   width: 100px;
   text-align: center;
@@ -281,7 +290,7 @@ h2 {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #7289DA transparent transparent transparent;
+  border-color: var(--discord) transparent transparent transparent;
 }
 
 .discord:hover #tooltip {
